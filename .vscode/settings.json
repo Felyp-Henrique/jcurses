@@ -1,0 +1,10 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.trimTrailingWhitespace": true,
+    "C_Cpp.default.includePath": [
+        "/usr/local/sdkman/candidates/java/current/include/**"
+    ],
+    "files.associations": {
+        "com_github_felyphenrique_curses.h": "c"
+    }
+}
