@@ -5,6 +5,8 @@
         "/usr/local/sdkman/candidates/java/current/include/**"
     ],
     "files.associations": {
-        "com_github_felyphenrique_curses.h": "c"
+        "com_github_felyphenrique_curses.h": "c",
+        "jni.h": "c",
+        "ncurses.h": "c"
     }
 }

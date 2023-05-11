@@ -1,12 +1,15 @@
 package com.github.felyphenrique;
 
 public final class Curses {
-    public static native void start();
-    public static native void stop();
+    public static native int raw();
 
-    public static void main(String[] args) {
-        Curses.start();
-    }
+    public static native int cbreak();
+
+    public static native int echo();
+
+    public static native int noecho();
+
+    public static native int keypad();
 
     static {
         System.load("/usr/local/lib/curses.so");

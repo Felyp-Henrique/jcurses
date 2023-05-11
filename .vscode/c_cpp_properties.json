@@ -4,7 +4,10 @@
             "name": "Linux",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/src/main/native"
+                "${workspaceFolder}/src/main/native",
+                "${HOME}/graalvm-ce-java17-22.3.1/include",
+                "${HOME}/graalvm-ce-java17-22.3.1/include/linux",
+                "/usr/local/sdkman/candidates/java/current/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/clang",

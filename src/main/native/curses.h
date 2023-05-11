@@ -9,18 +9,42 @@ extern "C" {
 #endif
 /*
  * Class:     com_github_felyphenrique_Curses
- * Method:    start
- * Signature: ()V
+ * Method:    raw
+ * Signature: ()I
  */
-JNIEXPORT void JNICALL Java_com_github_felyphenrique_Curses_start
+JNIEXPORT jint JNICALL Java_com_github_felyphenrique_Curses_raw
   (JNIEnv *, jclass);
 
 /*
  * Class:     com_github_felyphenrique_Curses
- * Method:    stop
- * Signature: ()V
+ * Method:    cbreak
+ * Signature: ()I
  */
-JNIEXPORT void JNICALL Java_com_github_felyphenrique_Curses_stop
+JNIEXPORT jint JNICALL Java_com_github_felyphenrique_Curses_cbreak
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     com_github_felyphenrique_Curses
+ * Method:    echo
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_github_felyphenrique_Curses_echo
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     com_github_felyphenrique_Curses
+ * Method:    noecho
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_github_felyphenrique_Curses_noecho
+  (JNIEnv *, jclass);
+
+/*
+ * Class:     com_github_felyphenrique_Curses
+ * Method:    keypad
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_com_github_felyphenrique_Curses_keypad
   (JNIEnv *, jclass);
 
 #ifdef __cplusplus
